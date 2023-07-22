@@ -1,0 +1,73 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   background-color: rgba(0, 0, 0, 0.869);
+}
+
+#app{
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.img-container{
+ border-radius: 50%;
+ height: 150px;
+ width: 150px;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.my-btn{
+    cursor: pointer;
+    padding: 12px;
+    background-color: green;
+    border: 0;
+    border-radius: 10%;
+    color: white;
+    font-size: medium;
+    box-shadow: 5px 5px 5px 5px rgba(27, 56, 30, 0.767);
+}
+
+h2{
+    color: rgba(245, 222, 179, 0.511);
+}
+
+.male{
+    background-color: rgba(62, 188, 4, 0.459);
+    border: 3px solid rgba(62, 188, 4, 0.459);
+    box-shadow: 5px 5px 5px 5px rgba(27, 56, 30, 0.767);  
+}
+
+.female {
+    background-color: rgba(229, 14, 197, 0.459);
+    border: 3px solid rgba(229, 14, 197, 0.459);
+    box-shadow: 0px 0px 10px 10px rgba(229, 14, 197, 0.134);
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 300;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 8px;
+    color: white;
+    background: #00000042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    word-break: normal
+  }
