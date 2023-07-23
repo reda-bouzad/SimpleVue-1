@@ -1,15 +1,6 @@
 import data from "./data.js "
 const persons = [...data];
 
-function randomNumber() {
-    const randomNumber = Math.floor(Math.random() * persons.length) + 1 ;
-    return randomNumber;
-}
-
-
-
-
-
 const app = Vue.createApp({
     // template: '<h1> Hello {{firstName}} </h1>',
     // the data is a function that returns an object 
@@ -22,7 +13,6 @@ const app = Vue.createApp({
             picture : persons[0].picture,
         }
             
-        
     },
     methods: {
 

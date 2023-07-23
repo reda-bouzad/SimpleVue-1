@@ -31,10 +31,45 @@ export default
             picture: 'https://randomuser.me/portraits/women/12.jpg',
         },
         {
-            firstName: 'Khadija',
-            lastName: 'Hatimi',
-            email: 'khadijahatimi@gmail.com',
+            firstName: 'Oumaima',
+            lastName: 'Elmazniy',
+            email: 'oumaimaelmazniy@gmail.com',
             gender: 'female',
-            picture: 'https://randomuser.me/portraits/women/8.jpg',
-        }
+            picture: 'https://randomuser.me/portraits/women/7.jpg',
+        },
+        {
+            firstName: 'Aziza',
+            lastName: 'Fekrane',
+            email: 'azizafekrane@gmail.com',
+            gender: 'female',
+            picture: 'https://randomuser.me/portraits/women/6.jpg',
+        },
+        
+        {
+            firstName: 'Hind',
+            lastName: 'Hraira',
+            email: 'hindhraira@gmail.com',
+            gender: 'female',
+            picture: 'https://randomuser.me/portraits/women/5.jpg',
+        },
+        
+        {
+            firstName: 'Nabil',
+            lastName: 'Jdaa',
+            email: 'nabilejdaa@gmail.com',
+            gender: 'male',
+            picture: 'https://randomuser.me/portraits/men/8.jpg',
+        },
+        
+        {
+            firstName: 'Omar',
+            lastName: 'Benyadine',
+            email: 'omarbenyadine@gmail.com',
+            gender: 'male',
+            picture: 'https://randomuser.me/portraits/men/7.jpg',
+        },
+        
+        
+        
+        
     ]
