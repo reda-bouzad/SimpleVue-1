@@ -10,4 +10,4 @@
     - Set dynamically a class using Vue .
     - Using the v-on:click directive .
 
-![Screenshot of the UI ](https://i.ibb.co/Y21sJjM/Capture.png) 
+![Screenshot of the UI](/images/capture.png) 
