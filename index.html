@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="app">
-            <div v-bind:class="gender" class="img-container">
-                <img class="my-img" v-bind:src="picture" width="150" :alt="`${firstName} ${lastName}`" />
-            </div>
-            <h2>{{firstName}} {{lastName}}</h2>
-            <h3> <i> {{email}} </i>   </h3>
+      <div v-bind:class="gender" class="img-container">
+        <img
+          class="my-img"
+          v-bind:src="picture"
+          width="150"
+          :alt="`${firstName} ${lastName}`"
+        />
+      </div>
+      <h2>{{firstName}} {{lastName}}</h2>
+      <h3><i> {{email}} </i></h3>
 
-            <button v-on:click="getUser()"  v-bind:class="gender" class="my-btn"> Click me ! </button>
-
-            
+      <button
+        v-on:click="getUsersFromApi()"
+        v-bind:class="gender"
+        class="my-btn"
+      >
+        Click me !
+      </button>
     </div>
 
     <div class="footer">
-        <h1> <i> 🦊 Website created by Reda ! </i></h1>
+      <h1><i> 🦊 Website created by Reda ! </i></h1>
     </div>
-
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="module" src="script.js"></script>
-</body>
+  </body>
 </html>
