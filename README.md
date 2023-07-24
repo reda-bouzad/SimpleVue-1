@@ -9,5 +9,6 @@
     - Set dynamically an image using Vue .
     - Set dynamically a class using Vue .
     - Using the v-on:click directive .
+    - working with an Api using FetchApi
 
 ![Screenshot of the UI](/images/capture.png) 
